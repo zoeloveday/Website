@@ -1,0 +1,55 @@
+.social {
+	display: flex;
+	// font-size:25px;
+	padding:20px;
+  justify-content: space-between;
+}
+.social p {
+	margin:0;
+	padding:20px 0 5px 0;
+	line-height:30px;
+	font-size:13px;
+}
+.social p a {
+	color:#34B484;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+}
+.social-icon {
+	width:80px;
+	height:50px;
+	background:#666;
+	color:#fff;
+	display:inline-block;
+	margin:0 20px;
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+.social-icon:hover {
+	background:#484848;
+	color:#000;
+}
+.social-icon i {
+	margin-top:12px;
+}
+
+.fa{
+	padding-top: 5px;
+	font-size: 20px;
+	color:#fff;
+}
+
+.fa-etsy{
+	padding-top: 5px;
+	margin:0;
+	font-size:20px;
+
+	font-family: 'Prata', serif;
+}
+
+.fa:hover{
+	color:#000;
+}

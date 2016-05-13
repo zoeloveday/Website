@@ -1,0 +1,81 @@
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+div.row.social{
+  text-align: center;
+}
+
+div.header, div.description{
+  text-align: center;
+  color: #fff;
+}
+
+.header {
+  margin-top: 15px;
+  font-family: 'Lato', helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+
+.description {
+  margin-top:15px;
+  font-family: 'Lato', helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: -2px 0 45px;
+}
+
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 40px;
+  border: none;
+}
+
+
+#email {
+  width: 75%;
+  max-height:40px;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+
+}
+
+
+#submit {
+  width: 25%;
+  max-height: 40px;
+  background: #fff;
+  font-family: inherit;
+  font-weight: bold;
+  color: #ff5f6d;
+  letter-spacing: 1px;
+  // border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+
+#submit:hover {
+  background: #CFDEF3;
+}
+
+
+input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+  box-shadow: 0 0 2px #E86C8D;
+}

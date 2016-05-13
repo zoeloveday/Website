@@ -1,0 +1,54 @@
+body, html{
+  margin:0;
+  padding:0;
+}
+//
+// html {
+//   background: url(../../img/Attractive-Sea-Images-HD.jpg) no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+// }
+
+body{
+  // border:1px dashed green;
+  max-width:2000px;
+  display: flex;
+  align-items: center;
+  background-image:url(../../img/eastbourne-photo-pier.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+// body>.bg-img{
+//   background-image:url(../../img/eastbourne-photo-pier.jpg)no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   padding: 0;
+//   margin: 0;
+//   position: relative;
+//   cursor: default;
+// }
+
+
+.wrapper{
+ width:800px;
+ height:auto;
+ // border: 2px solid orange;
+ background: #eee;
+ // opacity: 0.5;
+ margin: 0 auto;
+}
+
+.content{
+  width:600px;
+  margin: 0 auto;
+  // border: 1px dotted red;
+}
